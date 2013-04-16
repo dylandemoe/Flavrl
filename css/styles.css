@@ -1,0 +1,187 @@
+/*General*/
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+.navbar{
+    margin-bottom:0;
+}
+.dropdown-menu img{
+    width:16px   
+}
+
+.force-arrow{
+    margin-top:5px
+}
+#content{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    padding:10px;
+}
+.input-append .btn.dropdown-toggle {
+    float: none;
+}
+
+.modal-body{
+   min-height:300px;
+}
+.modal-status{
+    text-align: left;
+    float: left;
+    display:none;
+}
+.modal-status span{
+    color: #b94a48
+}
+.layer3{
+    z-index: 3;
+    position: relative;
+}
+/*Log in page*/
+.mainpage-signin{
+    max-width:300px;
+    margin: 0 auto 20px;
+}
+
+/*Search Engines*/
+input.main-search {
+    padding: 4px 6px 4px 30px;
+}
+img.main-search-img{
+    position: relative;
+    left: 25px;
+    z-index: 3;
+    top: 6px;
+}
+.main-search-list{
+    margin: 2px 14px
+}
+.selectSearchItem{
+    display: none
+}
+.engine_settings .btn-group{
+    margin-left:20px;
+    width: 200px;
+    padding-bottom: 20px;
+}
+.engine_settings .normal{
+    width:120px;
+    text-align:left
+}
+
+/*SETTINGS*/
+.dropdown-submenu.pull-left > a:after {
+    display: block;
+    float: left;
+    width: 0;
+    height: 0;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-color: transparent;
+    border-right-color: #cccccc;
+    border-style: solid;
+    border-width: 5px 5px 5px 0;
+    content: " ";
+}
+
+/*BACKGROUND*/
+#background .thumbnails li a, #theme .thumbnails li a{
+    height:60px
+}
+.selectedColour{
+    border-color: #0088cc;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+    -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+    box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+}
+
+/*BODY AND APP COLUMN*/
+#content-apps{
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden
+}
+.app-column{
+    border: 1px solid #222;
+    width: 310px;
+    height: 100%;
+    /*overflow: hidden;*/
+    display: inline-table;
+    margin-right: 10px;
+    -webkit-transition: box-shadow 0.25s ease-in-out;
+    -webkit-transition-delay: 0;
+    -moz-transition: box-shadow 0.25s ease-in-out 0;
+    -o-transition: box-shadow 0.25s ease-in-out 0;
+    transition: box-shadow 0.25s ease-in-out 0;
+    -webkit-box-shadow: rgba(17,17,17,0.15) 5px 5px 5px 3px;
+    -moz-box-shadow: rgba(17,17,17,0.15) 5px 5px 5px 3px;
+    box-shadow: rgba(17,17,17,0.15) 5px 5px 5px 3px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+.app-column .mCSB_scrollTools{
+    opacity: 0;
+}
+.app-column .mCSB_scrollTools.show{
+    opacity: 1;
+}
+.notloaded{
+    display:none;
+}
+.app-column .app-header{
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+.app-column .app-header a{
+    margin-right: 10px;
+    color:inherit;
+}
+.app-column .app-header a:hover{
+    text-decoration: none;
+    color:#08c;
+}
+.app-column .app-header-right{
+    position: absolute;
+    right: 0;
+    top: 11px;
+}
+.app-column .app-name{
+    font-size: 16px;
+}
+.app-column .app-loading{
+    text-align: center;
+    margin-top: 20px;
+}
+.app-column.fullsize{
+    width:99.1% !important;
+}
+.app-column.blend{
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.app-column .app-header.blend{
+    opacity: 0;
+}
+.app-column .app-header.blend:hover{
+    opacity: 1;
+}
+/*RESIZABLE CSS*/
+.ui-icon { width: 16px; height: 16px; background-image: url(http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/base/images/ui-icons_222222_256x240.png)/*{iconsContent}*/; }
+.ui-resizable { position: relative;}
+.ui-resizable-handle { position: absolute;font-size: 0.1px;z-index: 99999; display: block;}
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.ui-resizable-n { cursor: n-resize; height: 7px; width: 100%; top: -5px; left: 0px; }
+.ui-resizable-s { cursor: s-resize; height: 7px; width: 100%; bottom: -5px; left: 0px; }
+.ui-resizable-e { cursor: e-resize; width: 7px; right: -5px; top: 0px; height: 100%; }
+.ui-resizable-w { cursor: w-resize; width: 7px; left: -5px; top: 0px; height: 100%; }
+.ui-resizable-se { cursor: se-resize; width: 12px; height: 12px; right: 1px; bottom: 1px; }
+.ui-resizable-sw { cursor: sw-resize; width: 9px; height: 9px; left: -5px; bottom: -5px; }
+.ui-resizable-nw { cursor: nw-resize; width: 9px; height: 9px; left: -5px; top: -5px; }
+.ui-resizable-ne { cursor: ne-resize; width: 9px; height: 9px; right: -5px; top: -5px;}
+.ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
